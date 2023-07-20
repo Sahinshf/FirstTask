@@ -6,24 +6,25 @@ public class Program
     {
 
         //Task 3
-        //int num1 = int.Parse(Console.ReadLine());
-        //int num2 = int.Parse(Console.ReadLine());
-        //int start;
-        //int end;
+        int num1 = int.Parse(Console.ReadLine());
+        int num2 = int.Parse(Console.ReadLine());
+        int start;
+        int end;
+        int sum = 0;
 
-        //if (num1>=num2)
-        //{
-        //    start = num2; end = num1;    
-        //}
-        //else
-        //{
-        //    end = num2; start = num1;
-        //}
+        if (num1 >= num2)
+        {
+            start = num2; end = num1;
+        }
+        else
+        {
+            end = num2; start = num1;
+        }
 
-        //for (int i = start; i <= end; i++)
-        //{
-        //    Console.WriteLine(i);
-        //}
+        for (int i = start; i <= end; i++)
+        {
+            sum = sum + i;
+        }
 
 
         //Task 4
